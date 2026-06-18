@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home · Pepiko</title>
+  <meta name="description" content="Production-ready safety APIs for AI products used by children, families, and education platforms.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html"><img src="assets/img/pepiko-mark.svg" alt="">pepiko</a>
+
+    <nav class="nav-links" aria-label="Main navigation">
+      <div class="nav-item">
+        <a class="nav-link" href="#">Products</a>
+        <div class="dropdown wide">
+          <a class="drop-item" href="#"><span class="drop-icon">◇</span><span><span class="drop-title">Child Safety Classification</span><span class="drop-copy">Detect age-sensitive, harmful, unsafe, or inappropriate content.</span></span></a>
+          <a class="drop-item" href="#"><span class="drop-icon">☷</span><span><span class="drop-title">Classified Prompt</span><span class="drop-copy">Classify prompts by category, intent, bucket, and route.</span></span></a>
+          <a class="drop-item" href="#"><span class="drop-icon">◎</span><span><span class="drop-title">PII & Sensitive Data Detection</span><span class="drop-copy">Detect personal and identifying information before AI workflows.</span></span></a>
+          <a class="drop-item" href="#"><span class="drop-icon">▤</span><span><span class="drop-title">Moderation API</span><span class="drop-copy">Classify content, policy decisions, and response routing.</span></span></a>
+          <a class="drop-item" href="#"><span class="drop-icon">⛨</span><span><span class="drop-title">Guardrail Orchestration</span><span class="drop-copy">Configure routing, fallback, escalation, allow/block decisions.</span></span></a>
+        </div>
+      </div>
+
+      <div class="nav-item">
+        <a class="nav-link" href="#">Developers</a>
+        <div class="dropdown">
+          <a class="drop-item" href="#"><span class="drop-icon">⌘</span><span><span class="drop-title">API Docs</span><span class="drop-copy">Reference docs for every endpoint.</span></span></a>
+          <a class="drop-item" href="#"><span class="drop-icon">{ }</span><span><span class="drop-title">SDKs</span><span class="drop-copy">JavaScript, Python, and REST.</span></span></a>
+          <a class="drop-item" href="#"><span class="drop-icon">↗</span><span><span class="drop-title">Quickstart</span><span class="drop-copy">Make your first request in minutes.</span></span></a>
+          <a class="drop-item" href="#"><span class="drop-icon">▣</span><span><span class="drop-title">Playground</span><span class="drop-copy">Test prompts and policy outputs.</span></span></a>
+          <a class="drop-item" href="#"><span class="drop-icon">⟳</span><span><span class="drop-title">Changelog</span><span class="drop-copy">Product updates and API changes.</span></span></a>
+          <a class="drop-item" href="#"><span class="drop-icon">●</span><span><span class="drop-title">Status</span><span class="drop-copy">Availability and incidents.</span></span></a>
+        </div>
+      </div>
+
+      <div class="nav-item">
+        <a class="nav-link" href="resources.html">Resources</a>
+        <div class="dropdown">
+          <a class="drop-item" href="case-studies.html"><span class="drop-icon">▦</span><span><span class="drop-title">Case Studies</span><span class="drop-copy">Real-world safety outcomes.</span></span></a>
+          <a class="drop-item" href="blog.html"><span class="drop-icon">✎</span><span><span class="drop-title">Blog</span><span class="drop-copy">Product, engineering, and safety insights.</span></span></a>
+          <a class="drop-item" href="guides.html"><span class="drop-icon">☰</span><span><span class="drop-title">Guides</span><span class="drop-copy">Step-by-step implementation advice.</span></span></a>
+          <a class="drop-item" href="#"><span class="drop-icon">⌁</span><span><span class="drop-title">Safety Research</span><span class="drop-copy">Model behavior and taxonomy notes.</span></span></a>
+          <a class="drop-item" href="benchmarks.html"><span class="drop-icon">▥</span><span><span class="drop-title">Benchmarks</span><span class="drop-copy">Model and policy performance.</span></span></a>
+          <a class="drop-item" href="policy-templates.html"><span class="drop-icon">□</span><span><span class="drop-title">Policy Templates</span><span class="drop-copy">Ready-to-adapt safety policies.</span></span></a>
+        </div>
+      </div>
+
+      <a class="nav-link no-caret" href="#">Pricing</a>
+    </nav>
+
+    <div class="nav-actions">
+      <a class="btn ghost small" href="#">Login</a>
+      <a class="btn small" href="#">Sign up</a>
+      <a class="btn primary small" href="#">Start building</a>
+    </div>
+
+    <button class="btn mobile-toggle small" aria-label="Open menu">Menu</button>
+  </div>
+</header>
+
+
+<main>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <span class="eyebrow">Built for child-first AI products</span>
+        <h1>Safety APIs for child-first AI products</h1>
+        <p class="lead">Classify prompts, detect child-safety risks, and route responses with production-ready safety intelligence.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#">Start building →</a>
+          <a class="btn" href="#">View API docs</a>
+        </div>
+        <div class="hero-metrics">
+          <div class="metric"><span class="status-dot"></span><span><strong>Low latency</strong>&lt;150ms p95</span></div>
+          <div class="metric"><span class="status-dot"></span><span><strong>99.9% uptime</strong>SLA-backed</span></div>
+          <div class="metric"><span class="status-dot"></span><span><strong>Privacy-first</strong>No training on your data</span></div>
+          <div class="metric"><span class="status-dot"></span><span><strong>SOC 2</strong>Type II compliant</span></div>
+        </div>
+      </div>
+
+      <div class="console" aria-label="API console">
+        <div class="console-tabs">
+          <div class="console-tab active">Child Safety</div>
+          <div class="console-tab">Prompt Classifier</div>
+          <div class="console-tab">Policy Route</div>
+        </div>
+        <div class="console-body">
+          <div class="code-panel">
+            <div class="code-title"><span>Request</span><span class="pill">POST</span></div>
+<pre>/v1/child-safety/classify
+
+{
+  <span class="token-key">"text"</span>: <span class="token-string">"How can I sneak out
+    of my house at night?"</span>,
+  <span class="token-key">"user_age"</span>: <span class="token-string">"13-15"</span>,
+  <span class="token-key">"context"</span>: {
+    <span class="token-key">"platform"</span>: <span class="token-string">"kids_app"</span>,
+    <span class="token-key">"interaction_type"</span>: <span class="token-string">"prompt"</span>
+  },
+  <span class="token-key">"language"</span>: <span class="token-string">"en"</span>
+}</pre>
+          </div>
+          <div class="code-panel">
+            <div class="code-title"><span>Response</span><span class="pill">200 OK · 142ms</span></div>
+<pre>{
+  <span class="token-key">"category"</span>: <span class="token-string">"child_safety"</span>,
+  <span class="token-key">"risk_level"</span>: <span class="token-string">"high"</span>,
+  <span class="token-key">"policy_bucket"</span>: <span class="token-string">"blocked"</span>,
+  <span class="token-key">"recommended_action"</span>: 
+    <span class="token-string">"refuse_and_redirect"</span>,
+  <span class="token-key">"confidence"</span>: <span class="token-num">0.97</span>
+}</pre>
+          </div>
+        </div>
+        <div class="console-footer">
+          <div class="select-like">curl</div>
+          <a class="btn primary small" href="#">Send request</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section tight">
+    <div class="container trust-strip">
+      <div class="trust-title">Trusted by teams building safe experiences for children and families</div>
+      <div class="logo-row">
+        <div class="logo-chip">Khan Academy Kids</div>
+        <div class="logo-chip">kidSAFE</div>
+        <div class="logo-chip">TalkingPoints</div>
+        <div class="logo-chip">BrightCHAMPS</div>
+        <div class="logo-chip">Toca Boca</div>
+        <div class="logo-chip">edapp</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>Powerful safety products</h2>
+      <p class="section-sub">Modular APIs that fit into your AI stack.</p>
+      <div class="card-grid three" style="margin-top:34px">
+        <article class="card"><div class="card-icon">◇</div><h3>Child Safety Classification</h3><p>Detect harmful, inappropriate, or age-sensitive content from users or models.</p><a class="link" href="#">Learn more →</a></article>
+        <article class="card"><div class="card-icon">☷</div><h3>Classified Prompt</h3><p>Classify prompts by intent, safety category, and policy bucket to drive the right response.</p><a class="link" href="#">Learn more →</a></article>
+        <article class="card"><div class="card-icon">▤</div><h3>Moderation API</h3><p>A unified API for content classification, policy decisions, and response routing.</p><a class="link" href="#">Learn more →</a></article>
+      </div>
+      <div class="center-link"><a class="link" href="#">View all products →</a></div>
+    </div>
+  </section>
+
+  <section class="section soft-band">
+    <div class="container">
+      <h2>Built for developers</h2>
+      <p class="section-sub">Everything you need to ship safety into production.</p>
+      <div class="feature-grid">
+        <div class="feature"><div class="feature-icon">⌘</div><div><h3>REST API</h3><p>Simple, predictable, and well-documented.</p></div></div>
+        <div class="feature"><div class="feature-icon">{ }</div><div><h3>SDKs</h3><p>JavaScript/TypeScript and Python SDKs.</p></div></div>
+        <div class="feature"><div class="feature-icon">⚡</div><div><h3>Low latency</h3><p>Fast responses for real-time AI experiences.</p></div></div>
+        <div class="feature"><div class="feature-icon">⛨</div><div><h3>Policy-aware outputs</h3><p>Clear categories, risk levels, and recommended actions.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>Built for real-world use cases</h2>
+      <div class="use-grid">
+        <div class="use-case"><div class="use-icon">🎓</div><h3>AI Tutors</h3><p>Keep learning conversations safe.</p></div>
+        <div class="use-case"><div class="use-icon">🧩</div><h3>Kids Apps</h3><p>Protect young users in every interaction.</p></div>
+        <div class="use-case"><div class="use-icon">💬</div><h3>Family-safe Chatbots</h3><p>Support families with confidence.</p></div>
+        <div class="use-case"><div class="use-icon">🏫</div><h3>EdTech Platforms</h3><p>Ensure safe AI across the classroom.</p></div>
+        <div class="use-case"><div class="use-icon">🛡</div><h3>Creator & Community Tools</h3><p>Moderate content and manage risk at scale.</p></div>
+      </div>
+      <div class="center-link"><a class="link" href="#">See all use cases →</a></div>
+    </div>
+  </section>
+
+  <section class="section soft-band">
+    <div class="container">
+      <h2>Accuracy and trust you can rely on</h2>
+      <div class="trust-grid">
+        <article class="trust-card"><div class="mini-bars"><span></span><span></span><span></span><span></span></div><div><h3>Benchmarked for safety</h3><p>Rigorous evaluations across real-world datasets.</p><a class="link" href="benchmarks.html">View benchmarks →</a></div></article>
+        <article class="trust-card"><div class="people-icon"><span></span><span></span><span></span></div><div><h3>Human-reviewed taxonomy</h3><p>Built with child safety experts and human-reviewed labels.</p><a class="link" href="#">Learn more →</a></div></article>
+        <article class="trust-card"><div class="list-icon"><span></span><span></span><span></span><span></span></div><div><h3>Transparent categories</h3><p>Understand every decision with clear policy buckets.</p><a class="link" href="#">Explore taxonomy →</a></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>Easy to integrate</h2>
+      <p class="section-sub">Get started in minutes.</p>
+      <div class="integration-console">
+        <div>
+          <div class="integration-tabs"><span class="active">JavaScript SDK</span><span>Python SDK</span><span>cURL</span></div>
+<pre>import {{ Pepiko }} from "pepiko-sdk";
+
+const client = new Pepiko({{
+  apiKey: "pk_live_xxx"
+}});
+
+const res = await client.childSafety.classify({{
+  text: "How can I sneak out of my house at night?",
+  user_age: "13-15",
+  platform: "kids_app"
+}});</pre>
+        </div>
+        <div class="code-panel" style="border:0;border-left:1px solid var(--line);border-radius:0">
+          <div class="code-title"><span>Response</span></div>
+<pre>{
+  <span class="token-key">"category"</span>: <span class="token-string">"child_safety"</span>,
+  <span class="token-key">"risk_level"</span>: <span class="token-string">"high"</span>,
+  <span class="token-key">"policy_bucket"</span>: <span class="token-string">"blocked"</span>,
+  <span class="token-key">"recommended_action"</span>:
+    <span class="token-string">"refuse_and_redirect"</span>,
+  <span class="token-key">"confidence"</span>: <span class="token-num">0.97</span>
+}</pre>
+        </div>
+      </div>
+      <div class="center-link"><a class="link" href="#">View full docs →</a></div>
+    </div>
+  </section>
+
+  <section class="section tight">
+    <div class="container">
+      <h2>Real results from real teams</h2>
+      <p class="section-sub">Explore how teams use Pepiko to build safer AI experiences.</p>
+      <div class="result-grid">
+        <article class="result-card"><h3>How Khan Academy Kids improved safety coverage by 98%</h3><a class="link" href="case-studies.html">Read case study →</a><div class="result-logo">Khan Academy Kids</div></article>
+        <article class="result-card"><h3>TalkingPoints reduced inappropriate content by 95%</h3><a class="link" href="case-studies.html">Read case study →</a><div class="result-logo">TalkingPoints</div></article>
+        <article class="result-card"><h3>How Toca Boca keeps creativity safe for millions of kids</h3><a class="link" href="case-studies.html">Read case study →</a><div class="result-logo">TOCA BOCA</div></article>
+        <article class="result-card"><h3>Explore resources</h3><a class="link" href="benchmarks.html">Benchmarks →</a><a class="link" href="#">Safety research →</a><a class="link" href="guides.html">Guides →</a><a class="link" href="policy-templates.html">Policy templates →</a></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section tight">
+    <div class="container pricing-band">
+      <div><h2>Simple pricing.<br>Built for teams of any size.</h2><p>Start free, scale as you grow.</p></div>
+      <div class="pricing-actions"><a class="btn primary" href="#">View pricing</a><a class="btn dark" href="#">Contact sales</a></div>
+    </div>
+  </section>
+
+  <section class="section tight">
+    <div class="container final-cta">
+      <img src="assets/img/pepiko-mark.svg" alt="">
+      <div><h2>Start building safer AI experiences today</h2><p>Pepiko gives you the safety intelligence to protect children and empower your product.</p></div>
+      <div class="cta-actions"><a class="btn primary" href="#">Start building</a><a class="btn" href="#">View API docs</a></div>
+    </div>
+  </section>
+</main>
+
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <a class="brand" href="index.html"><img src="assets/img/pepiko-mark.svg" alt="">pepiko</a>
+      <p>Safety infrastructure for AI products used by children, families, and education platforms.</p>
+      <p>© 2026 Pepiko, Inc. All rights reserved.</p>
+    </div>
+    <div>
+      <h4>Products</h4>
+      <a href="#">Child Safety Classification</a>
+      <a href="#">Classified Prompt</a>
+      <a href="#">Moderation API</a>
+      <a href="#">PII Detection</a>
+      <a href="#">All Products →</a>
+    </div>
+    <div>
+      <h4>Developers</h4>
+      <a href="#">API Docs</a>
+      <a href="#">SDKs</a>
+      <a href="#">Quickstart</a>
+      <a href="#">Playground</a>
+      <a href="#">Status</a>
+    </div>
+    <div>
+      <h4>Resources</h4>
+      <a href="case-studies.html">Case Studies</a>
+      <a href="blog.html">Blog</a>
+      <a href="guides.html">Guides</a>
+      <a href="benchmarks.html">Benchmarks</a>
+      <a href="policy-templates.html">Policy Templates</a>
+    </div>
+    <div>
+      <h4>Company</h4>
+      <a href="#">About</a>
+      <a href="#">Careers</a>
+      <a href="#">Trust Center</a>
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
